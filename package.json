@@ -1,0 +1,19 @@
+{
+  "name": "ebyrt-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compose:down": "(cd app && docker-compose down --remove-orphans)",
+    "compose:up": "(cd app && docker-compose up -d --build)",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Thauler Ferreira Mayrink",
+  "license": "ISC",
+    "config": {
+    "commitizen": {
+      "path": "git-cz"
+    }
+  }
+}
